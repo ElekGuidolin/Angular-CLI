@@ -1,0 +1,17 @@
+//Creates a new Application 
+ng new my-app --routing --prefix acme --style scss
+
+//Creates a new service and register it in app.module
+ng g s sales-data -m app.module
+
+//Creates a new Customer Class in models folder
+ng g cl models/customer
+
+//Creates a new Person Interface in models folder
+ng g i models/person
+
+//Creates a new Gender Enum in models folder
+ng g e models/gender
+
+//Creates a new Pipe and it's spec into a shared folder.
+ng g p shared/init-caps
