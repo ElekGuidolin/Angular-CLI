@@ -19,7 +19,6 @@ import { LoginModule } from './login/login.module';
     InitCapsPipe
   ],
   imports: [
-
     BrowserModule,
     AppRoutingModule,
     LoginModule
